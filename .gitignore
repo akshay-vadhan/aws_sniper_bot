@@ -1,0 +1,15 @@
+.env
+.env.*
+!.env.example
+!**/.env.example
+backend/.env
+backend/radar.db
+backend/*.db
+backend/.venv/
+backend/__pycache__/
+backend/**/__pycache__/
+backend/.pytest_cache/
+frontend/.env.local
+frontend/node_modules/
+frontend/.next/
+frontend/out/

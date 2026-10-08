@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #101522;
+  --color-panel: #171e2d;
+  --color-line: #252e40;
+  --color-mint: #4be0ae;
+  --shadow-glow: 0 0 30px rgba(75, 224, 174, .08);
+}
+
+:root { color-scheme: dark; }
+* { box-sizing: border-box; }
+body { margin: 0; background: #101522; color: #f3f6fb; font-family: Arial, Helvetica, sans-serif; }
+button, input { font: inherit; }
+::selection { background: rgba(75,224,174,.25); }
